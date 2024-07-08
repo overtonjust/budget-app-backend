@@ -3,6 +3,12 @@ const express = require('express')
 const cors = require('cors')
 const transactionsController = require('./controllers/transactionController')
 
+app.use(cors({
+   origin: 'https://simplybudgeting.netlify.app',
+   credentials: true
+}
+))
+
 const app = express()
 
 app.get('/', (req, res) => {
@@ -10,11 +16,6 @@ app.get('/', (req, res) => {
 })
 
 // Middleware
-app.use(cors({
-   origin: 'https://simplybudgeting.netlify.app',
-   credentials: true
-}
-))
 app.use(express.json())
 app.use('/transactions' , transactionsController)
 
