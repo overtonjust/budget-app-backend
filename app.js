@@ -3,13 +3,13 @@ const express = require('express')
 const cors = require('cors')
 const transactionsController = require('./controllers/transactionController')
 
+const app = express()
+
 app.use(cors({
    origin: 'https://simplybudgeting.netlify.app',
    credentials: true
 }
 ))
-
-const app = express()
 
 app.get('/', (req, res) => {
     res.send('Welcome to Budgeting')
