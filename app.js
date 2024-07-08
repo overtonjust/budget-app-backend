@@ -6,7 +6,7 @@ const transactionsController = require('./controllers/transactionController')
 const app = express()
 
 app.use(cors({
-   origin: 'https://simplybudgeting.netlify.app',
+   origin: '*',
    credentials: true
 }
 ))
