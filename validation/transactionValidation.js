@@ -12,7 +12,7 @@
 const validateNameAndSource = (req, res, next) => {
     const name = req.body.item_name
     const source = req.body.source
-    const regex = /^[a-zA-Z0-9\s]+$/
+    const regex = /^[a-zA-Z0-9-\s]+$/
     if(name === '') {
         res.status(404).json({error: 'Please enter a name'})
     } else if (source === '') {
