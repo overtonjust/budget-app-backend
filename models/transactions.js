@@ -5,7 +5,7 @@ module.exports = [
         id : nanoid(5),
         item_name: "income",
         amount: 200,
-        date: "2024-07-12",
+        date: "2025-01-12",
         source: "employer",
         category: "Income"
     },
@@ -13,7 +13,7 @@ module.exports = [
         id: nanoid(5),
         item_name: "T-Shirt",
         amount: -40,
-        date: "2024-07-06",
+        date: "2025-01-06",
         source: "Old Navy",
         category: "Shopping"
     },
@@ -21,7 +21,7 @@ module.exports = [
         id: nanoid(5),
         item_name: "Groceries",
         amount: -80,
-        date: "2024-07-06",
+        date: "2025-01-06",
         source: "Acme",
         category: "Food & Drink"
     },
@@ -29,7 +29,7 @@ module.exports = [
         id: nanoid(5),
         item_name: "Movies",
         amount: -14,
-        date: "2024-07-06",
+        date: "2025-01-06",
         source: "Regal Cinemas",
         category: "Entertainment"
     },
@@ -37,7 +37,7 @@ module.exports = [
         id: nanoid(5),
         item_name: "Electic Bill",
         amount: -100,
-        date: "2024-09-06",
+        date: "2025-01-06",
         source: "Central Hudson",
         category: "Expenses"
     }
