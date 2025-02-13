@@ -4,7 +4,7 @@ module.exports = [
     {
         id : nanoid(5),
         item_name: "income",
-        amount: 200,
+        amount: 2000,
         date: "2025-01-12",
         source: "employer",
         category: "Income"
